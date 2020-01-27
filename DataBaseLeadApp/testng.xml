@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="National Guard Suite" annotations="JDK" >
+         
+  <test name="Create Lead Test" >
+	 <classes>
+	   <class name="com.leadapp.testcases.CreateLeadTest"/>
+	 </classes>
+   </test>
+   
+ 
+</suite>
